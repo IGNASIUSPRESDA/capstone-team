@@ -1,0 +1,533 @@
+body {
+    background-color: #F8F9FA;
+    font-family: Mulish, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+/* styling navbar */
+
+.navbar {
+    display: flex;
+    background-color: white;
+}
+
+.navbar .title {
+    margin-left: 125px;
+}
+
+.navbar .title a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar .title a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar .navigations {
+    display: flex;
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: 125px;
+}
+
+.navbar li {
+    display: flex;
+    margin-right: 75px;
+    list-style-type: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+}
+
+.navbar li a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar button {
+    margin: auto;
+    background-color:#5222d0;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    padding:15px;
+    min-height:30px; 
+    min-width: 120px;
+    font-family: Mulish, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: medium;
+}
+
+/* styling mengapa harus bergabung */
+
+/* styling jelajahi program */
+
+.about .program {
+    padding: 5rem 7% 1.4rem;
+}
+
+.about h1 {
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+    color: #150436;
+}
+
+.about h1 span {
+    color: #4508c1;
+}
+
+.about .row {
+    display: flex;
+}
+
+.about .row .about-img {
+    flex: 1 1 45rem;
+}
+
+.about .row .about-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4rem;
+    padding-bottom: 0;
+}
+
+.about .row .img {
+    flex: 1 1 45rem;
+}
+
+.about .row .img img {
+    width: 100%;
+    border-radius: 4rem;
+    padding-bottom: 0;
+}
+
+.about .row .content {
+    flex: 1 1 35rem;
+    padding: 0 1rem;
+}
+
+.about .row .content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #150436;
+}
+
+.about .row .content p {
+    margin-bottom: 0.8rem;
+    font-size: 1.5rem;
+    max-height: 50%;
+    display: block;
+    background-color: blueviolet;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+/* styling layanan */
+
+.layanan h3 {
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.layanan h3 span {
+    color: #150436;
+}
+
+.layanan ul {
+    text-align: center;
+    font-size: 1rem;
+    max-width: 50rem;
+    margin: auto;
+    font-weight: 50;
+    padding-bottom: 2rem;
+}
+
+.layanan p {
+    text-align: center;
+    font-size: 1.5rem;
+    max-width: 50rem;
+    margin: auto;
+    font-weight:10;
+    line-height: 2;
+}
+
+.layanan .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+.layanan-card {
+    text-align: center;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    flex: 1 1 10rem;
+}
+
+.layanan-card .layanan-card-title{
+    font-weight: bold;
+}
+
+.layanan .row .layanan-card img {
+    border-radius: 50%;
+    width: 50%;
+    font-size: 3rem;
+}
+
+.layanan .row .layanan-card .layanan-card-title {
+    margin: 1.5rem 0 1rem;
+    font-size:small;
+}
+
+#card {
+    background-color: #4508c1;
+    box-sizing: content-box;
+    border-radius: 2rem;
+    align-items: flex-start;
+}
+
+#card1 {
+    background-color: blueviolet;
+    box-sizing: content-box;
+    border-radius: 2rem;
+    align-items: center;
+}
+
+#card2 {
+    background-color: #4508c1;
+    box-sizing: content-box;
+    border-radius: 2rem;
+    align-items: flex-end;
+}
+
+/* untuk tombol */
+
+.layanan .row .layanan-card .tbl-biru {
+    background-color: #150436;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.layanan .row .layanan-card .tbl-biru:hover {
+    background:rgb(0, 167, 167);
+}
+
+/* styling komentar alumni */
+
+#testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 15px 0px 30px 0px;
+}
+
+.testimonial-heading {
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-heading h1 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    background-color: #202020;
+    color: white;
+    padding: 10px 20px;
+}
+
+.testimonial-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.testimonials-box {
+    width: 500px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    background-color: #422691;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.testimonial-profile {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.name-user strong {
+    color: white;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+.profile-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.review {
+    color: yellow;
+}
+
+.box-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.student-comment {
+    font-size: 0.9rem;
+    color: white;
+}
+
+.testimonials-box:hover {
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+
+/* styling biaya */
+
+.biaya-course {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    padding: 2rem;
+    background-image: linear-gradient(45deg, #5222d0 0%, #ec615b 100%);
+}
+
+.biaya {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    background-color:white;
+    border-radius: 20px;
+    margin: 1rem;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+    padding: 2rem;
+    transition: all 0.25 ease-in;
+}
+
+.biaya:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    margin: 1rem;
+    text-align: center;
+}
+
+.biaya:hover .icon > h2 {
+    transform: scale(1.1);
+    color: #5222d0;
+    letter-spacing: 2;
+}
+
+.icon > img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.detail {
+    width: 100%;
+}
+
+.detail > p {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.8rem;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.check {
+    color: #5222d0;
+}
+
+.nocheck {
+    color: #ec615b;
+}
+
+.detail > p:hover {
+    background-color: #d5d5d5;
+}
+
+.harga {
+    display: flex;
+    align-items: flex-start;
+    margin: 1rem;
+}
+
+.harga > p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.harga > p > sup,
+.harga > p > sub{
+    font-size: 1rem;
+}
+
+.button-biaya {
+    padding: 0.6rem 3rem;
+    border: 2px solid #5222d0;
+    background-color: #5222d0;
+    color: azure;
+    font-family: Mulish, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: medium;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 50ms ease-in;
+}
+
+.button-biaya:hover {
+    border: 2px solid #ec615b;
+    background-color: transparent;
+    color: #ec615b;
+    font-weight: 800;
+}
+
+/* footer section */
+
+
+
+/* styling profile */
+
+.profile-card {
+    height: 450px;
+    width: 675px;
+    background: linear-gradient(45deg, #340c7d, #243c6c, #5d2dd6, #290461);
+    border-radius: 25px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+    margin-right: auto;
+    display: none;
+}
+
+.profile-subtitle h2{
+    display: flex;
+    justify-content: center ;
+    margin-top: 50px;
+}
+
+.profile-photo {
+    margin-top: auto;
+    margin-right: 50px;
+    margin-bottom: auto;
+    margin-left: 50px;
+}
+
+.profile-photo img {
+    height: 150px;
+    width: 150px;
+}
+
+.profile-text {
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: 0px;
+    color: white;
+}
+
+.social-medias {
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+    margin-right: 35px;
+}
+
+.social-medias img {
+    height: 50px;
+    width: 50px;
+}
+
+/* responsif */
+
+@media (max-width : 1366px) {
+    html{
+        font-size: 75%;
+    }
+
+    .testimonials-box{
+        width: 45%;
+        padding: 10px;
+    }
+}
+
+@media (max-width : 768px) {
+    html{
+        font-size: 60%;
+    }
+
+    .about .row {
+        flex-wrap: wrap;
+    }
+
+    .about .row .about-img img{
+        height: 24rem;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .layanan .row .layanan-card .tbl-biru {
+        font-size: 60%;
+    } 
+    
+    .testimonials-box{
+        width: 100%;
+    }
+    .testimonial-heading h1{
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width : 450px) {
+    html{
+        font-size: 55%;
+    }
+
+    .box-top{
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    .review{
+        margin-top: 10px;
+    }
+}
+
+::selection{
+    color: white;
+    background: #252525;
+}
