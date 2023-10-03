@@ -13,8 +13,6 @@ function carousel() {
   setTimeout(carousel, 4000); 
 }
 
-// ========================================
-
 // let d = document;
 
 // function initLinks() {
