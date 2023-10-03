@@ -86,15 +86,11 @@ body {
     font-size: 40px;
 }
 
-.landing-header span {
-    color: #eae7e4;
-}
-
 .landing-content {
     position: absolute;
     transform: translate(-50%, -50%);
     text-align: center;
-    top: 45%;
+    top: 50%;
     left: 72%;
 }
 
@@ -104,7 +100,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     text-align: left;
-    color: #d5c6e2;
+    color: #white;
 }
 
 .landing-img {
