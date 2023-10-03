@@ -65,7 +65,7 @@ body {
 .landing {
     width: auto;
     height: 500px;
-    background-color: #5222d0;
+    background-color: #230a7d;
     background-repeat: no-repeat;
     background-size: auto;
     display: block;
@@ -183,92 +183,62 @@ body {
 
 /* styling layanan */
 
-.layanan {
-    margin: auto;
-}
-
-.layanan h3 {
-    font-size: 2rem;
-    margin-top: 5rem;
-    text-align: center;
-}
-
-.layanan h3 span {
-    color: #150436;
-}
-
-.layanan ul {
-    text-align: center;
-    font-size: 0.9rem;
-    max-width: 50rem;
-    font-weight: 50;
+.fasilitas-container {
+    background-image: linear-gradient(45deg, #b44c8c 0%, #230a7d 100%);
+    padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
-.layanan p {
-    text-align: center;
-    font-size: 1rem;
-    max-width: 50rem;
-    margin: auto;
-    font-weight:10;
-    line-height: 2;
+.fasilitas-heading {
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
-.layanan .row {
+.fasilitas-course {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-.layanan-card {
-    text-align: center;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    margin: 1rem;
-}
-
-.layanan .row .layanan-card img {
-    flex: 1 1 10rem;
-    border-radius: 50%;
-    width: 50%;
-    font-size: 1rem;
-}
-
-.layanan .row .layanan-card .layanan-card-title {
-    margin: 1.5rem 0 1rem 0;
-    font-size:2rem;
-}
-
-#card {
-    background-color: #4508c1;
-    border-radius: 1rem;
-}
-
-#card1 {
-    background-color: blueviolet;
-    border-radius: 1rem;
-}
-
-#card2 {
-    background-color: #4508c1;
-    border-radius: 1rem;
-}
-
-/* untuk tombol */
-
-.layanan .row .layanan-card .tbl-biru {
-    background-color: #150436;
+.fasilitas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    background-color:white;
     border-radius: 20px;
-    margin-top: 20px;
-    padding: 15px 20px 15px 20px;
-    color: #FFFFFF;
-    cursor: pointer;
-    text-decoration: none;
-    font-family: Mulish, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-    font-size: medium;
+    margin: 2rem;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+    padding: 5px;
+    transition: all 0.25 ease-in;
 }
 
-.layanan .row .layanan-card .tbl-biru:hover {
-    background:rgb(0, 167, 167);
+.fasilitas:hover {
+    transform: scale(1.1);
+}
+
+.gambar-fasilitas {
+    margin: 1rem;
+    text-align: center;
+}
+
+.gambar-fasilitas:hover 
+.gambar-fasilitas > h2 {
+    transform: scale(1.1);
+    color: #5222d0;
+    letter-spacing: 2;
+}
+
+.gambar-fasilitas > img {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
 }
 
 /* styling komentar alumni */
@@ -279,7 +249,7 @@ body {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    margin: 5rem 0px 5rem 0px;
+    margin: 2rem 0px 5rem 0px;
 }
 
 .testimonial-heading {
