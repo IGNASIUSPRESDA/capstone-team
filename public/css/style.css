@@ -585,7 +585,9 @@ html, body {
     height: 150px;
     width: 150px;
 }
-
+.profile-biodata{
+    width: 250px;
+}
 .profile-text {
     margin-top: auto;
     margin-right: auto;
@@ -602,8 +604,8 @@ html, body {
 }
 
 .social-medias img {
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
 }
 
 /* responsif */
