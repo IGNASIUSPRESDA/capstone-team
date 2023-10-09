@@ -608,6 +608,40 @@ html, body {
     width: 30px;
 }
 
+@media screen and (max-width: 480px) {
+    .profile-card{
+        width: 95%;
+        height: 50%;
+    }
+    .profile-photo img{
+        width: 70px;
+        height: 70px;
+    }
+    .profile-biodata{
+        width: 20px;
+    }
+    .profile-nama h2{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .profile-card{
+        width: 95%;
+        height: 50%;
+    }
+    .profile-photo img{
+        width: 70px;
+        height: 70px;
+    }
+    .profile-biodata{
+        width: 20px;
+    }
+    .profile-nama h2{
+        margin-top: 10px;
+    }
+}
+
 /* responsif */
 
 @media (max-width : 1366px) {
