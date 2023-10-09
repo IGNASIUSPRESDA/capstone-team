@@ -583,7 +583,8 @@ html, body {
 
 .profile-photo img {
     height: 150px;
-    width: 150px;
+    width: 160px;
+    border-radius: 50%;
 }
 .profile-biodata{
     width: 250px;
